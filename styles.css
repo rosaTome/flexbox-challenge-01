@@ -1,0 +1,58 @@
+/* body structure */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation bar structure */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* _nology logo */
+.topnav a.nology {
+  background-color: green;
+  color: white;
+
+  width: 150px;
+  height: 20px;
+}
+
+/* black background for the link(s) navigation tabs */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* background and font colours change on hover */
+.topnav a:hover {
+  background-color: white;
+  color: green;
+}
+
+/* link(s) navigation tabs to the right */
+.topnav-right {
+  float: right;
+}
+
+.card {
+  height: auto;
+  width: auto;
+  margin: 20px;
+  border: 3px solid black;
+  padding: 2px;
+  text-align: left;
+  background-color: white;
+  color: black;
+
+}
+
+/* bold title for each panel */
+.card section{
+font-weight: bold;
+}
