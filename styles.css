@@ -55,5 +55,10 @@ body {
 
 /* bold title for each panel */
 .card section{
-font-weight: bold;
+  font-weight: bold;
+}
+
+/* spacing between the lists within each of the panels */
+li{
+  line-height: 1.8;
 }
