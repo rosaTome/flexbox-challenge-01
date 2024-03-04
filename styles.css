@@ -1,11 +1,10 @@
 /* body structure */
-body {
-  margin: 0;
+body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* navigation bar structure */
-.topnav a {
+.topnav a{
   float: left;
   color: white;
   text-align: center;
@@ -15,7 +14,7 @@ body {
 }
 
 /* _nology logo */
-.topnav a.nology {
+.topnav a.nology{
   background-color: green;
   color: white;
 
@@ -24,41 +23,69 @@ body {
 }
 
 /* black background for the link(s) navigation tabs */
-.topnav {
+.topnav{
   overflow: hidden;
   background-color: black;
 }
 
 /* background and font colours change on hover */
-.topnav a:hover {
+.topnav-right :hover{
   background-color: white;
   color: green;
 }
 
 /* link(s) navigation tabs to the right */
-.topnav-right {
+.topnav-right{
   float: right;
 }
 
 /* cards separating each of the panels */
-.card {
-  height: auto;
-  width: auto;
+.mainpanels{
   margin: 20px;
   border: 3px solid black;
   padding: 2px;
+
+  text-align: right;
+  background-color: white;
+  color: black;
+}
+
+/* right hand panel right side positioning */
+.righthandpanel{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 3px solid black;
+  padding-left: 2px;
+
   text-align: left;
   background-color: white;
   color: black;
-
 }
 
-/* bold title for each panel */
-.card section{
+/* bold titles and line spacing for all panels */
+section{
   font-weight: bold;
+  line-height: 1.8;
+  text-align: left;
 }
 
 /* spacing between the lists within each of the panels */
 li{
   line-height: 1.8;
+  text-align: left;
 }
+
+/* cards wrapping around - flexbox options */
+.wrap{
+height: 770px;
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+/* cards wrapping around - proportions */
+}
+.wrap>*{
+flex: 1 1 80px;
+}
+
