@@ -54,7 +54,7 @@ body{
 
 /* right hand panel right side positioning */
 .righthandpanel{
-  height: 533px;
+  height: 544px;
   width: 300px;
 
   margin-top: 20px;
@@ -71,6 +71,7 @@ body{
 
 /* bold titles and line spacing for all panels */
 section{
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.8;
   text-align: left;
