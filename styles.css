@@ -1,6 +1,6 @@
 /* body structure */
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;    
 }
 
 /* navigation bar structure */
@@ -26,6 +26,7 @@ body{
 .topnav{
   overflow: hidden;
   background-color: black;
+  margin-bottom: 10px;
 }
 
 /* background and font colours change on hover */
@@ -41,10 +42,11 @@ body{
 
 /* cards separating each of the panels */
 .mainpanels{
-  height: 300px;
+  height: 156.5px;
   width: 1050px;
 
-  margin: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
   border: 3px solid black;
 
   text-align: right;
@@ -52,18 +54,20 @@ body{
   color: black;
 }
 
-/* right hand panel right side positioning */
+/* right hand panel right side positioning and font */
 .righthandpanel{
-  height: 544px;
-  width: 300px;
+  height: 570px;
+  width: 282px;
 
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 100px;
   border: 3px solid black;
-  padding-left: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
 
+  font-size: 14px;
+  line-height: 1.4;
   text-align: justify;
   background-color: white;
   color: black;
@@ -71,16 +75,25 @@ body{
 
 /* bold titles and line spacing for all panels */
 section{
-  font-size: 18px;
+  margin-bottom: -18px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 1.8;
+  line-height: 2.5;
   text-align: left;
 }
 
 /* spacing between the lists within each of the panels */
 li{
-  line-height: 1.8;
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 2.5;
   text-align: left;
+}
+
+/* editing space around the 'Right-hand Panel' paragraph  */
+p{
+  margin-top: 15px;
+  margin-bottom: -5.5px;
 }
 
 /* cards wrapping around */
